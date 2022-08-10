@@ -1,0 +1,6 @@
+com\ecome\inventoryservice\service\InventoryService.class
+com\ecome\inventoryservice\service\InventoryServiceImpl.class
+com\ecome\inventoryservice\entity\Inventory.class
+com\ecome\inventoryservice\InventoryServiceApplication.class
+com\ecome\inventoryservice\repository\InventoryRepository.class
+com\ecome\inventoryservice\controller\InventoryController.class

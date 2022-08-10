@@ -1,0 +1,11 @@
+com\ecom\productservice\controller\ProductController.class
+com\ecom\productservice\service\ProductService.class
+com\ecom\productservice\entity\Product.class
+com\ecom\productservice\ProductServiceApplication.class
+com\ecom\productservice\dto\ProductResponse.class
+com\ecom\productservice\repository\ProductRepository.class
+com\ecom\productservice\service\ProductServiceImpl.class
+com\ecom\productservice\dto\ProductRequest$ProductRequestBuilder.class
+com\ecom\productservice\dto\ProductResponse$ProductResponseBuilder.class
+com\ecom\productservice\entity\Product$ProductBuilder.class
+com\ecom\productservice\dto\ProductRequest.class
