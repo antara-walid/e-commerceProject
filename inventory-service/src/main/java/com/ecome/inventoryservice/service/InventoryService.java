@@ -1,7 +1,11 @@
 package com.ecome.inventoryservice.service;
 
+import com.ecome.inventoryservice.dto.InventoryResponse;
+
+import java.util.List;
+
 public interface InventoryService {
 
 
-     boolean isInStock(String skuCode);
+     List<InventoryResponse>  areInStock(List<String> skuCodes);
 }
