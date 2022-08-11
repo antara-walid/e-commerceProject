@@ -1,6 +1,4 @@
 
-}
-Morder-service/src/main/java/com/ecom/orderservice/config/WebClientConfig.java,a\4\a4d5e7b5c62fe040d3bd4b7c0a5b38691cd94b86
 …
 Uinventory-service/src/main/java/com/ecome/inventoryservice/dto/InventoryResponse.java,4\d\4ddb834486dcc7ca0a3a414b9b413b893554f12e
 Ž
@@ -13,8 +11,6 @@ Pinventory-service/src/main/java/com/ecome/inventoryservice/entity/Inventory.jav
 Xinventory-service/src/main/java/com/ecome/inventoryservice/service/InventoryService.java,d\5\d56f58bb2c60c5bc5a2081fcff7f3caa127d1050
 |
 Lorder-service/src/main/java/com/ecom/orderservice/dto/InventoryResponse.java,8\9\89227cb99318fbf614963d39c4b0c9ef31440116
-
-Oorder-service/src/main/java/com/ecom/orderservice/service/OrderServiceImpl.java,b\0\b0b3600e4f537980661e38a2e20efc489ce1f263
 |
 Lorder-service/src/main/java/com/ecom/orderservice/dto/OrderLineItemsDTO.java,3\8\381dbb2fed29e5cdf3883216850534dbfa2ce42f
 w
