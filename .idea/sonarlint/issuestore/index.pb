@@ -1,23 +1,7 @@
 
-Ö
-Uinventory-service/src/main/java/com/ecome/inventoryservice/dto/InventoryResponse.java,4\d\4ddb834486dcc7ca0a3a414b9b413b893554f12e
-é
-^inventory-service/src/main/java/com/ecome/inventoryservice/repository/InventoryRepository.java,8\0\809124cf9078dc17df8db0fb27eaa035179f5f49
-Ä
-Pinventory-service/src/main/java/com/ecome/inventoryservice/entity/Inventory.java,7\8\78e946ba12784087d47c875b16bbefa5c811833d
-å
-\inventory-service/src/main/java/com/ecome/inventoryservice/service/InventoryServiceImpl.java,5\3\53b09c92dcb929bcb0dcab1d5ba312d66293dda4
-à
-Xinventory-service/src/main/java/com/ecome/inventoryservice/service/InventoryService.java,d\5\d56f58bb2c60c5bc5a2081fcff7f3caa127d1050
 |
 Lorder-service/src/main/java/com/ecom/orderservice/dto/InventoryResponse.java,8\9\89227cb99318fbf614963d39c4b0c9ef31440116
-|
-Lorder-service/src/main/java/com/ecom/orderservice/dto/OrderLineItemsDTO.java,3\8\381dbb2fed29e5cdf3883216850534dbfa2ce42f
-w
-Gorder-service/src/main/java/com/ecom/orderservice/dto/OrderRequest.java,9\c\9cb017c3a99cac9a0fb2d718eb183ba5e011a9c4
-é
-^inventory-service/src/main/java/com/ecome/inventoryservice/controller/InventoryController.java,7\0\706f208f87d757565ce7020e8f5efaf12583a67e
-ã
-[inventory-service/src/main/java/com/ecome/inventoryservice/InventoryServiceApplication.java,9\6\96152c0cdeb584048c8862b250b6b8946dedd6f5
 Å
-Qorder-service/src/main/java/com/ecom/orderservice/controller/OrderController.java,c\f\cf6d669c6fce5e02becdcd69e34bdf6b3f2fee20
+Qdiscovery-server/src/main/java/com/ecom/discoveryserver/DiscoveryApplication.java,d\2\d28d6a733e305b92a15c12910e1d9a12e9f3e7a3
+C
+api-gateway/pom.xml,2\b\2bfa2b108f2439e99e004f4085b58c22cf995f73
