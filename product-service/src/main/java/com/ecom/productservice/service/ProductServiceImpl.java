@@ -3,6 +3,7 @@ package com.ecom.productservice.service;
 import com.ecom.productservice.dto.ProductRequest;
 import com.ecom.productservice.dto.ProductResponse;
 import com.ecom.productservice.entity.Product;
+import com.ecom.productservice.exceptions.ProductNotFoundException;
 import com.ecom.productservice.repository.ProductRepository;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
@@ -10,6 +11,7 @@ import org.springframework.beans.factory.annotation.Required;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
+import java.util.Optional;
 import java.util.stream.Collectors;
 
 @Service
@@ -35,5 +37,15 @@ public class ProductServiceImpl implements ProductService{
     public List<ProductResponse> getAllProducts() {
        List<Product> productList = productRepository.findAll();
        return productList.stream().map( product -> product.mapToProductResponse()).collect(Collectors.toList());
+    }
+
+    @Override
+    public ProductResponse getProduct(String id) {
+        Optional<Product> productOptional = productRepository.findById(id);
+        if(productOptional.isPresent())
+            return productOptional.get().mapToProductResponse();
+        else
+            throw new ProductNotFoundException();
+
     }
 }
