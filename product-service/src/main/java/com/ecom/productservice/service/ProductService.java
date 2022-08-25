@@ -11,4 +11,6 @@ public interface ProductService {
     List<ProductResponse> getAllProducts();
 
     ProductResponse getProduct(String id);
+
+    ProductResponse updateProduct(String id, ProductRequest productRequest);
 }

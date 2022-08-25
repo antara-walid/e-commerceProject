@@ -35,4 +35,12 @@ public class  ProductController {
     {
         return productService.getProduct(id);
     }
+
+    @PutMapping("/{id}")
+    @ResponseStatus(HttpStatus.OK)
+    public ProductResponse updateProduct(@PathVariable String id ,@RequestBody ProductRequest productRequest)
+    {
+        return productService.updateProduct(id,productRequest);
+    }
+
 }

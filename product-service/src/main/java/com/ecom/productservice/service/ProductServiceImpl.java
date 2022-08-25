@@ -48,4 +48,9 @@ public class ProductServiceImpl implements ProductService{
             throw new ProductNotFoundException();
 
     }
+
+    @Override
+    public ProductResponse updateProduct(String id, ProductRequest productRequest) {
+        return null;
+    }
 }
